@@ -19,7 +19,7 @@ pie(table(X2023_STB_survey $Grade))
 hist(X2023_STB_survey $Age, main = "경영통계분석2 나이분포", xlab = "나이",ylab = "frequency", col="lightblue")
 #10step
 boxplot(Age ~ Grade, data = X2023_STB_survey, 
-        +         main = "grade별 age", xlab = "Grade", ylab = "age")
+        main = "grade별 age", xlab = "Grade", ylab = "age")
 #11step 산점도
 plot(x=X2023_STB_survey $Grade, y=X2023_STB_survey$Age, xlab="grade", ylab="age")
               
